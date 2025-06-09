@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { ReactTyped as Typed } from "react-typed";
-
-
 import "./Homepage.css";
 import profileImage from "../assets/profile.JPG";
-
-
 
 const backgrounds = ["bg1", "bg2", "bg3"];
 

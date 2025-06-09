@@ -65,8 +65,8 @@ body {
 
 .profile-image {
     max-width: 100%;
-    max-height: 80vh;
-    border-radius: 20px;
+    max-height: 60vh;
+    border-radius: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     animation: float 6s ease-in-out infinite;
     border: 5px solid rgba(255, 255, 255, 0.1);

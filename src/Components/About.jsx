@@ -13,53 +13,68 @@ const About = () => {
 
                     <div className="info-card custom-card bg-white p-4 md:p-6 rounded-xl shadow-lg space-y-6">
 
-                        {/* Education */}
-                        <div>
-                            <h4 className="text-lg font-semibold text-orange-500 mb-2">Education</h4>
-                            <ul className="text-gray-700 text-sm space-y-1">
-                                <li>
-                                    <strong>B.Tech Information Technology</strong> – Dr. Sivanthi Aditanar College of Engineering, Tiruchendur (2021 - 2025)
-                                    <br /> CGPA: <span className="font-medium">[8.72]</span>
 
-                                </li>
-                                <li>
-                                    <strong>HSC</strong> – S. Shunmuga Sundara Nadar Higher Secondary
-                                    School, Authoor. (2020 - 2021)
-                                    <br /> Percentage: <span className="font-medium">[91%]</span>
-                                </li>
-                                <li>
-                                    <strong>SSLC</strong> – S. Shunmuga Sundara Nadar Higher Secondary
-                                    School, Authoor. (2018 - 2019)
-                                    <br /> Percentage: <span className="font-medium">[92%]</span>
-                                </li>
-                            </ul>
+                        <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-800">
+
+                            {/* Education Card */}
+                            <div className="bg-white shadow-md rounded-xl p-6 border-l-4 border-orange-500">
+                                <h4 className="text-xl font-bold text-orange-600 mb-4">Education</h4>
+
+                                <div className="mb-4">
+                                    <p className="font-semibold text-lg">B.Tech – Information Technology</p>
+                                    <p>Dr. Sivanthi Aditanar College of Engineering, Tiruchendur</p>
+                                    <p className="text-sm text-gray-600">2021 – 2025 | CGPA: <span className="font-semibold">8.72</span></p>
+                                </div>
+
+                                <div className="mb-4">
+                                    <p className="font-semibold text-lg">HSC</p>
+                                    <p>S.Shunmuga Sundara Nadar Higher Secondary School, Authoor</p>
+                                    <p className="text-sm text-gray-600">2020 – 2021 | Percentage: <span className="font-semibold">91%</span></p>
+                                </div>
+
+                                <div>
+                                    <p className="font-semibold text-lg">SSLC</p>
+                                    <p>S.Shunmuga Sundara Nadar Higher Secondary School, Authoor</p>
+                                    <p className="text-sm text-gray-600">2018 – 2019 | Percentage: <span className="font-semibold">92%</span></p>
+                                </div>
+                            </div>
+
+                            {/* Experience Card */}
+                            <div className="bg-white shadow-md rounded-xl p-6 border-l-4 border-blue-500">
+                                <h4 className="text-xl font-bold text-blue-600 mb-4">Experience</h4>
+
+                                <div>
+                                    <p className="font-semibold text-lg">Java Full Stack Developer Intern</p>
+                                    <p className="text-sm text-gray-600">2025 – Present</p>
+                                    <p className="mt-2">
+                                        Hands-on experience in building responsive user interfaces using <span className="font-medium">React.js</span>, <span className="font-medium">CSS</span>, and <span className="font-medium">JavaScript</span>. Built landing pages, reusable components, resume/contact forms, and project galleries.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
 
-                        {/* Experience */}
-                        <div>
-                            <br />
-                            <h4 className="text-lg font-semibold text-orange-500 mb-2">Experience</h4>
-                            <ul className="text-gray-700 text-sm space-y-1">
-                                <li><strong>Java Full Stack Developer</strong> – Working (2025 – Present)</li>
-                                <li>Gained 3 months of hands-on experience building responsive and interactive user interfaces using React.js and CSS.</li>
-                                <li>Created landing pages, UI components, and interactive sections like resume, contact forms, and project galleries.</li>
-                            </ul>
-                        </div>
 
                         {/* Personal Details */}
-                        <div>
-                            <br />
-                            <h4 className="text-lg font-semibold text-orange-500 mb-2">Personal Details</h4>
-                            <ul className="text-gray-700 text-sm space-y-1">
-                                <li><strong>Name: </strong> Ashvini A</li>
-                                <li><strong>Age: </strong> 20</li>
-                                <li>
-                                    <strong>Address: </strong>
+                        <div className="bg-white shadow-md rounded-xl p-6 border-l-4 border-green-500 text-sm text-gray-800">
+                            <h4 className="text-xl font-bold text-green-600 mb-4">Personal Details</h4>
+
+                            <div className="mb-3">
+                                <p><span className="font-semibold text-gray-900">Name:</span> Ashvini A</p>
+                            </div>
+
+                            <div className="mb-3">
+                                <p><span className="font-semibold text-gray-900">Age:</span> 20</p>
+                            </div>
+
+                            <div>
+                                <p><span className="font-semibold text-gray-900">Address:</span></p>
+                                <p>
                                     1/46, Arunachala Swamy Kovil Street, Umarikadu<br />
                                     Thoothukudi District – 628151
-                                </li>
-                            </ul>
+                                </p>
+                            </div>
                         </div>
+
 
                     </div>
                 </div>
@@ -79,8 +94,8 @@ const About = () => {
 
                         {/* Updated Resume View Button Below Circle */}
                         <a
-                            href="/Resume.pdf"
-                            download="Resume.pdf"
+                            href="/Ashvini-Resume.pdf"
+                            download="Ashvini-Resume.pdf"
                             className="resume-btn"
                             target="_blank"
                             rel="noopener noreferrer"
