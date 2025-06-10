@@ -22,7 +22,7 @@ export default function Homepage() {
                 <div className="left-content">
                     <h1 className="animated-text">
                         <Typed
-                            strings={["Hello, I am Ashvini\nJava Full Stack Developer"]}
+                            strings={["Hello, I am Ashvini\nFresher"]}
                             typeSpeed={50}
                             backSpeed={30}
                             backDelay={1500}

@@ -94,14 +94,18 @@ const About = () => {
 
                         {/* Updated Resume View Button Below Circle */}
                         <a
-                            href="/Ashvini-Resume.pdf"
+                            href="https://drive.google.com/file/d/12-sCW_wWq1DHF0QGMPmgek5QTi40QvyT/view?usp=drive_link"
                             download="Ashvini-Resume.pdf"
-                            className="resume-btn"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="resume-download"
                         >
-                            Download Resume
+                            📄 View Resume
                         </a>
+
+
+
+
 
                     </div>
                 </div>
